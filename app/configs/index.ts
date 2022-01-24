@@ -1,13 +1,13 @@
-import { BOOKS } from 'router/routeNames';
+import { SEARCH } from 'router/routeNames';
 
 const configs = {
   VERSION: '0.0.1',
-  initialRouteName: BOOKS,
+  initialRouteName: SEARCH,
   initialRouteParams: {},
   LOG_API: false,
   LOG_ANALYTICS: false,
   // API_DOMAIN: 'http://localhost:4000',
-  API_DOMAIN: 'https://my.api.mockaroo.com',
+  API_DOMAIN: 'http://universities.hipolabs.com/',
   AUTH_ACCESS_TOKEN_KEY: 'AuthAccessToken',
   AUTH_REFRESH_TOKEN_KEY: 'AuthRefreshToken',
   PLAY_STORE_LINK: '',

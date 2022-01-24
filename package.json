@@ -36,6 +36,7 @@
     ]
   },
   "dependencies": {
+    "@apollo/client": "^3.5.7",
     "@formatjs/intl-pluralrules": "^3.4.7",
     "@formatjs/intl-relativetimeformat": "^7.2.7",
     "@react-native-async-storage/async-storage": "^1.15.15",
@@ -45,6 +46,7 @@
     "@reduxjs/toolkit": "^1.4.0",
     "@types/react-redux": "^7.1.11",
     "fs-frontend-commons": "https://gitlab.com/fetchsky/fs-frontend-commons.git",
+    "graphql": "^16.2.0",
     "immer": "^8.0.0",
     "intl": "^1.2.5",
     "react": "17.0.1",

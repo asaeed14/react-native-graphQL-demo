@@ -27,7 +27,7 @@ const COUNTRIES = [
   },
   {
     id: 3,
-    label: 'United',
+    label: 'United States',
   },
   {
     id: 4,
@@ -37,10 +37,12 @@ const COUNTRIES = [
 
 const SearchScreen: React.FC<SearchScreenProps> = (_props) => {
   const [selectedCountry, setSelectedCountry] = useState<any>(null);
+
   return (
     <Screen
       testID="SearchScreen"
       headerTitle={<FormattedMessage {...messages.title} isFragment />}
+      useScrollView={false}
     >
       <View style={style.inputHolder}>
         <InputDropDown

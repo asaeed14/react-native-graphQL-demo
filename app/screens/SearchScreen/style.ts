@@ -48,6 +48,14 @@ const style = StyleSheet.create({
   itemWeb: {
     color: Colors.buttonSecondary,
   },
+  loaderWrapper: {
+    width: Dimensions.screenWidth - Dimensions.space4x,
+    height: 100,
+    margin: Dimensions.space2x,
+    alignItems: 'center',
+    borderRadius: Dimensions.borderRadius3x,
+    backgroundColor: Colors.skeleton,
+  },
 });
 
 export default style;
